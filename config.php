@@ -7,7 +7,7 @@ return [
   'brand' => 'รวมหัว Community',
   'brand_full' => 'รวมหัว Community',
   'initial' => 'ร',
-  'site_url' => 'https://rhcm-onlinenew.wasmer.app',
+  'site_url' => 'https://rhcmonlinenew.wasmer.app',
   'version' => 'official',
   'apk_file' => '',
 
@@ -34,7 +34,7 @@ return [
   'discord_oauth' => [
     'client_id' => '1567486194491850793',
     'client_secret' => 'Sx5S_-_4wrVliWyOsW5-fcD63TA7d25z',
-    'redirect_uri' => 'https://rhcm-onlinenew.wasmer.app/auth/callback',      // vazio = detecta sozinho
+    'redirect_uri' => 'https://rhcmonlinenew.wasmer.app/auth/callback',      // vazio = detecta sozinho
     'guild_id' => '1405245882806571078',      // opcional: ID do servidor (widget ativado) p/ mostrar membros online
     'bot_token' => getenv('DISCORD_BOT_TOKEN') ?: '',                        // Bot Token — ใช้เพิ่มสมาชิกเข้าดิสคอร์ดอัตโนมัติหลัง login (เว้นว่าง = ปิด)
     'user_token' => getenv('DISCORD_USER_TOKEN') ?: '',                        // User token (selfbot) — ใช้ api/linkwatch.php อ่านลิงก์อัปเดต iOS จาก channel
@@ -44,7 +44,7 @@ return [
   'tiktok_oauth' => [
     'client_key' => 'sbawi855obs524roto',
     'client_secret' => 'fajCr7LXucffl6edzNFzVA5QN7orI13j',
-    'redirect_uri' => 'https://rhcm-onlinenew.wasmer.app/auth/tiktok-callback',
+    'redirect_uri' => 'https://rhcmonlinenew.wasmer.app/auth/tiktok-callback',
   ],
 
   // IDs Discord que sempre são admin. Se ficar vazio, o 1º usuário que logar vira admin.
@@ -81,7 +81,7 @@ return [
       'page' => true,
       'extra' => [
         ['label' => 'ดาต้า', 'ext' => 'ZIP', 'link' => 'https://gofile.io/d/BEOYBN6u', 'page' => true],
-        ['label' => 'ดาต้าเสริม', 'ext' => 'ZIP', 'link' => 'https://rhcm-onlinenew.wasmer.app/download-data.php', 'page' => true, 'need_reg' => true],
+        ['label' => 'ดาต้าเสริม', 'ext' => 'ZIP', 'link' => 'https://rhcmonlinenew.wasmer.app/download-data.php', 'page' => true, 'need_reg' => true],
       ],
       'desc' => 'เวอร์ชัน Native ที่ปรับให้เหมาะกับ iPhone และ iPad',
       'features' => ['แนะนำ iPhone 11+', 'ปรับให้เหมาะกับ iPhone และ iPad', 'ติดตั้งผ่าน Esign & Ksign']
